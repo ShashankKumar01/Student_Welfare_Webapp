@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Notes and To-Do List</title>
+    <link rel="stylesheet" href="Notes.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Notes and To-Do List</h1>
+        <div class="notes">
+            <h2>Notes</h2>
+            <ul id="notes-list">
+                <!-- Notes will be displayed here -->
+            </ul>
+            <input type="text" id="note-input" placeholder="Add a new note">
+            <button id="add-note">Add Note</button>
+        </div>
+        <div class="todo">
+            <h2>To-Do List</h2>
+            <ul id="todo-list">
+                <!-- To-Do items will be displayed here -->
+            </ul>
+            <input type="text" id="todo-input" placeholder="Add a new task">
+            <select id="priority-select">
+                <option value="low">Low Priority</option>
+                <option value="medium">Medium Priority</option>
+                <option value="high">High Priority</option>
+            </select>
+            <button id="add-task">Add Task</button>
+        </div>
+    </div>
+    <script src="Notes.js"></script>
+</body>
+</html>

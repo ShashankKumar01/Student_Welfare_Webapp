@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(243, 233, 215);
+}
+h1{
+    /* color: Red; */
+    font-size: 35px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+
+    
+}
+#k{
+    color: red;
+}
+/* @keyframes one{
+    from{
+        color: red;
+        font-size: 35px;
+    }
+    to{
+        color: brown;
+    font-size: 40px;
+    }
+} */
+h2{
+    color: chocolate;
+}
+/* h2:hover{
+    transform: skew(350deg);
+    transform: rotate(2deg);
+} */
+#m{
+    
+    animation-name: two;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    
+    animation-iteration-count: 2;
+    float: right;
+    
+}
+/* @keyframes two{
+    from{
+        
+        left: 100px; top: 100px;
+    }
+    to{
+        
+        left: 200px; top: 100px;
+    }
+} */
+/* .mayank{
+    background-image: radial-gradient(rgb(204, 233, 40), rgb(233, 194, 224), rgb(214, 199, 163));
+} */
+p:hover{
+    font-style: italic;
+    color: cornflowerblue;
+    font-size: 20px;
+}
+img{
+    border-radius: 50%;
+    transition: all 1s 0s;
+}
+img:hover{
+    transform: scale(1.5);
+}
+a{
+    transition: all 1s 0s;
+}
+a:hover{
+    font-size: 20px;
+    color: rgb(189, 58, 41);
+}
+iframe{
+    border: 2px solid rgb(89, 13, 241);
+    transition: all 1s 0s;
+    box-shadow: 3px 3px 25px black;
+}
+iframe:hover{
+    transform: scale(1.1);
+}
+.shadow {filter: drop-shadow(8px 8px 10px green);}
+#yes:hover{
+      color:rgb(227, 29, 125);
+      font-size: 25px;
+}
+footer{
+    /* color:rgb(218, 245, 11); */
+    /* color:white; */
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}

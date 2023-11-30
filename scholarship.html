@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Scholarship Application</title>
+    <link rel="stylesheet" type="text/css" href="scholarship.css">
+</head>
+<body>
+    <header>
+        <h1>University Scholarship Application</h1>
+    </header>
+    <div class="container">
+        <form id="scholarship-form">
+            <h2>Personal Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required>
+
+            <h2>Academic Information</h2>
+            <label for="gpa">GPA:</label>
+            <input type="number" step="0.01" id="gpa" required>
+
+            <label for="major">Major:</label>
+            <input type="text" id="major" required>
+
+            <h2>Financial Information</h2>
+            <label for="income">Annual Income:</label>
+            <input type="number" id="income" required>
+
+            <label for="financial-aid">Previous Financial Aid (if any):</label>
+            <input type="number" id="financial-aid" required>
+
+            <h2>Statement of Purpose</h2>
+            <textarea id="purpose" required></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <script src="scholarship.js"></script>
+</body>
+</html>

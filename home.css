@@ -1,0 +1,204 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ead9d9;
+    /* background-image: url("nature.jpeg");
+    background-size: 120%; */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    /* position: fixed; */
+}
+
+nav li {
+    display: inline;
+    margin: 0 40px;
+    /* position: fixed; */
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+.hero h1 {
+    font-size: 2rem;
+}
+
+.hero a {
+    display: inline-block;
+    background-color: #fff;
+    color: #007BFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero a:hover {
+    background-color: #0056b3;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.feature {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 10px;
+    flex-basis: calc(33.33% - 20px);
+}
+
+.feature img {
+    max-width: 80px;
+}
+
+.feature h3 {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+#m:hover{
+    color: #1a1b16;
+}
+.feature1{
+    margin-left: 50vw;
+    text-align: center;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 1px;
+}
+.feature1 img{
+    max-width: 150px;
+}
+a:hover{
+    color: rgb(153, 63, 63);
+}
+.announcements, .events, .quick-links, .testimonials {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.announcements h2, .events h2, .quick-links h2, .testimonials h2 {
+    color: #007bff;
+}
+
+.testimonials .testimonial {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calendar {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.calendar-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+td {
+    border: 1px solid #ddd;
+}
+td.event {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+}
+td:hover {
+    background-color: #e6e6e6;
+}
+
+ul{
+    list-style-type: none;
+}
+/* #mayank{
+    position: fixed;
+} */
